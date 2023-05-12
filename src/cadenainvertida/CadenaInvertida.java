@@ -8,12 +8,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author alumno
+ * @author Bryan
  */
 public class CadenaInvertida {
 
     /**
-     * @param args the command line arguments
+     * @param args El codigo principal dara una cadena y dara un resultado
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -26,7 +26,11 @@ public class CadenaInvertida {
         }
         
     }
-    
+    /**
+     * 
+     * @param original
+     * @return devolvera una cadena invertida
+     */
     public static String invertirCadena(String original) {
         String invertida = "";
         for (int i = original.length() - 1; i >= 0; i--) {
